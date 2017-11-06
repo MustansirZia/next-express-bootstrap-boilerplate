@@ -1,0 +1,49 @@
+{
+  "name": "areeb-dashboard-web",
+  "version": "0.0.1",
+  "description": "Admin Panel for Areeb apps.",
+  "main": "index.js",
+  "repository": "https://github.com/graphicweave/areeb-dashboard-web",
+  "author": "Mustansir Zia",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "next"
+  },
+  "eslintConfig": {
+    "extends": "airbnb",
+    "rules": {
+      "arrow-parens": "off",
+      "global-require": "off",
+      "indent": [
+        "error",
+        4
+      ],
+      "no-console": "off",
+      "comma-dangle": "off",
+      "no-underscore-dangle": "off",
+      "func-names": "off",
+      "no-use-before-define": "off",
+      "react/jsx-indent": [
+        "error",
+        4
+      ],
+      "react/jsx-indent-props": [
+        "error",
+        4
+      ],
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    }
+  },
+  "dependencies": {
+    "next": "^4.1.4",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  }
+}
