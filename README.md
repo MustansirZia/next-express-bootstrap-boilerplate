@@ -49,4 +49,4 @@ Boilerplate code to get you up and running quickly with a full stack JavaScript 
 ```
 
 <br />
-• Our next.js `app`
+Readme is a work in progress.
