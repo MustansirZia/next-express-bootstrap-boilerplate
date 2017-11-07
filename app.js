@@ -1,5 +1,5 @@
 const app = require('express')();
-const logger = require('morgan');
+// const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const next = require('./next');
@@ -21,7 +21,7 @@ const start = async (port) => {
     // Use your SSR logic here.
     // Even if you don't do explicit routing the pages inside app/pages
     // will still get rendered as per their normal route.
-    app.get('/main', (req, res) => res.app.render(req, res, '/', {
+    app.get('/main', (req, res) => req.app.render(req, res, '/', {
         routeParam: req.params.routeParam
     }));
 

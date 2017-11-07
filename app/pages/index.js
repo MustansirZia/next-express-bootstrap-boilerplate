@@ -19,7 +19,11 @@ const Index = () => (
 
         <span className="heading">React.js | Next.js | Express.js | Bootstrap - SCSS</span>
         <span className="text">with SSR.</span>
-        <span className="text"><a href="https://github.com/MustansirZia/next-express-bootstrap-boilerplate">https://github.com/MustansirZia/next-express-bootstrap-boilerplate</a></span>
+        <span className="text">
+            <a href="https://github.com/MustansirZia/next-express-bootstrap-boilerplate">
+              Github
+            </a>
+        </span>
         <br />
         <div className="btn">
             <Link href="/profile">

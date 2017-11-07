@@ -101,7 +101,11 @@ const Index = () => (
 
         <span className="heading">React.js | Next.js | Express.js | Bootstrap - SCSS</span>
         <span className="text">with SSR.</span>
-        <span className="text"><a href="https://github.com/MustansirZia/next-express-bootstrap-boilerplate">Github</a></span>
+        <span className="text">
+            <a href="https://github.com/MustansirZia/next-express-bootstrap-boilerplate">
+              Github
+            </a>
+        </span>
         <br />
         <div className="btn">
             <Link href="/profile">
@@ -128,7 +132,7 @@ export default Index;
 
 The backend routing is handled primarily inside `app.js`. There is where we initialize our express router. There is only app level middlewares at the moment (with a single route defined - `/main` in place). You can move the routing to a separate root folder like `routes` and use router level middlewares. <br />
 It should look quite familiar to the `app.js` of a normal express app with the exception of the asynchronous `next(app)` function call. This bootstraps Next.js with our express server and adds two middlewares to our existing router. <br />
-The first middleware adds `res.app` and `res.handle` properties to our `res` object. We can use these to render pages from Next.js inside our express routes. <br />
+The first middleware adds `req.app` and `req.handle` properties to our `req` object. We can use these to render pages from Next.js inside our express routes. <br />
 The second middleware simply makes sure to divert any request comes to a route that is not defined within our express routes to the Next.js' handler which takes care of it automatically by looking up inside `app/pages` for a corresponding component. (This is why a request to `/` and `/profile` is catered to even though it is not defined in the express router; Only `/main` is defined there). <br />
 Thus, as you can see requests to `/main` and `/` mean the same thing. Each component is rendered on the server and then sent to the client. <br />
 Look inside `app.js` and `next.js` to know more.
@@ -136,7 +140,7 @@ Look inside `app.js` and `next.js` to know more.
 #### `app.js`.
 ```js
 const app = require('express')();
-const logger = require('morgan');
+// const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const next = require('./next');
