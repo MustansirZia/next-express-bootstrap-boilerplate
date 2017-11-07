@@ -14,7 +14,7 @@ app.use(cookieParser());
 
 const start = async (port) => {
     // Couple Next.js with our express server.
-    // app and handle from "next" will now be available as res.app and res.handle.
+    // app and handle from "next" will now be available as req.app and req.handle.
     await next(app);
 
     // Normal routing, if you need it.
