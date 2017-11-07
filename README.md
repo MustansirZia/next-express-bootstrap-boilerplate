@@ -18,10 +18,9 @@ Boilerplate code to get you up and running quickly with a full stack JavaScript 
 
 • `npm run dev` or if you have yarn `yarn dev`. (For development)
 
-• `npm start` or if you have yarn `yarn start`. (For production. `start` script will first build the app and then serve the production version)
+• `npm start` or if you have yarn `yarn start`. (For production). `start` script will first build the app and then serve the production version at `:9001`.
 
 • Go to `localhost:9001` to verify.
-
 <br />
 <br />
 
@@ -68,10 +67,11 @@ Boilerplate code to get you up and running quickly with a full stack JavaScript 
 <br />
 Our React app is housed under `app/`. Since it uses Next.js, all the main app routes go under `app/pages`. The common or miscellaneous components are housed under `app/components`.
 <br />
-<br />
+
+
 Next.js uses [styled-jsx](https://github.com/zeit/styled-jsx) to apply styles to our components. it is a css-in-js solution and will work inside this boilerplate too. But apart from this, we can write our own individual `css` or `scss` files for each of our components and place them under `app/styles`.
 We can later on import these style files just as we do in plain react but we need to put them inside `<style>` tags for them to work. (Since that's how Next.js handles all the styling).
-
+<br />
 
 As you can see our `bootstrap.min.css` is also housed under `app/styles/vendor` and is loaded inside a HOC called `Theme`. We essentially load all the bootstrap styling into this component and make it a wrapper for every component which uses components from <b>[react-bootstrap](https://react-bootstrap.github.io/)</b>. That's how we can import and use bootstrap components into our own components. Check `app/pages/index.js` as an example for this.
 
