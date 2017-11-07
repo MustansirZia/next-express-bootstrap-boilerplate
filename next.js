@@ -8,8 +8,8 @@ module.exports = (async server => {
     await app.prepare();
     // Middleware to insert app and handle inside the req object.
     server.use('/', (req, res, next) => {
-        req.app = app;
-        req.handle = handle;
+        res.app = app;
+        res.handle = handle;
         next();
     });
     server.originalListen = server.listen;

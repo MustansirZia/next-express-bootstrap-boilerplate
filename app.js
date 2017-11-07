@@ -14,14 +14,14 @@ app.use(cookieParser());
 
 const start = async (port) => {
     // Couple Next.js with our express server.
-    // app and handle from "next" will now be available as req.app and req.handle.
+    // app and handle from "next" will now be available as res.app and res.handle.
     await next(app);
 
     // Normal routing, if you need it.
     // Use your SSR logic here.
     // Even if you don't do explicit routing the pages inside app/pages
     // will still get rendered as per their normal route.
-    app.get('/index', (req, res) => req.app.render(req, res, '/', {
+    app.get('/main', (req, res) => res.app.render(req, res, '/', {
         routeParam: req.params.routeParam
     }));
 
