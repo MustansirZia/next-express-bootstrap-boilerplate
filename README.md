@@ -26,19 +26,19 @@ Boilerplate code to get you up and running quickly with a full stack JavaScript 
 
 ## App structure.
 ```
-|-- app 						   // Next.js app lives here.
+|-- app    // Next.js app lives here.
 |  |
-|  `-- components 		 // Common components live here.
+|  `-- components   // Common components live here.
 |  |  |
 |  |  `-- Theme.js
 |  |
-|  `-- pages 					 // App routes live here.
+|  `-- pages    // App routes live here.
 |  |  |
 |  |  `-- index.js
 |  |  |
 |  |  `-- profile.js
 |  |
-|  `-- styles 					// CSS and SCSS files live here.
+|  `-- styles     // CSS and SCSS files live here.
 |  |  |
 |  |  `-- index.scss
 |  |  |
@@ -48,7 +48,7 @@ Boilerplate code to get you up and running quickly with a full stack JavaScript 
 |  |
 |  `-- .babelrc					
 |  |
-|  `-- next.config.js 	// App config lives here.
+|  `-- next.config.js    // App config lives here.
 |  |
 |  `-- postcss.config.js   
 |
