@@ -28,7 +28,7 @@ Boilerplate code to get you up and running quickly with a full stack JavaScript 
 ```
 |-- app 						   // Next.js app lives here.
 |  |
-|  `-- components 			     // Common components live here.
+|  `-- components 		 // Common components live here.
 |  |  |
 |  |  `-- Theme.js
 |  |
@@ -48,7 +48,7 @@ Boilerplate code to get you up and running quickly with a full stack JavaScript 
 |  |
 |  `-- .babelrc					
 |  |
-|  `-- next.config.js 			// App config lives here.
+|  `-- next.config.js 	// App config lives here.
 |  |
 |  `-- postcss.config.js   
 |
