@@ -174,14 +174,23 @@ start(9001);
 ## Goodies.
 ### Hot loading.  <br />
 (For dev environment) <br />
+
 <p>
+
 Hot loading is automatically added for any change inside `app` by Next.js which hot loads components as you change them. (This includes any css scss files)
+
 </p>
+
 <p>
+
 Hot loading for any server side code is handled by `nodemon` which restarts the node server automatically.
+
 </p>
+
 <p>
+
 Eslint is also added which uses the [airbnb](https://github.com/airbnb/javascript) style guide. Custom rules are defined to suit this very boilerplate inside `package.json` via a key called `eslintConfig`.
+
 </p>
 
 <br />
