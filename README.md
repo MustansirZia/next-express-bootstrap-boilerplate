@@ -1,7 +1,6 @@
 # next-express-bootstrap-boilerplate
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
-
 <br />
 
 ## TL;DR.
@@ -50,5 +49,4 @@ Boilerplate code to get you up and running quickly with a full stack JavaScript 
 ```
 
 <br />
-
 • Our next.js `app`
