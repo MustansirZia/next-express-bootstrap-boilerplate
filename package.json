@@ -1,11 +1,11 @@
 {
-  "name": "areeb-dashboard-web",
+  "name": "next-express-bootstrap-boilerplate",
   "version": "0.0.1",
-  "description": "Admin Panel for Areeb apps.",
-  "main": "index.js",
-  "repository": "https://github.com/graphicweave/areeb-dashboard-web",
+  "description": "JavaScript boilerplate for a full stack app built using React.js, Next.js, Express.js, react-bootstrap, SCSS and full SSR with eslint.",
+  "main": "app.js",
+  "repository": "https://github.com/MustansirZia/next-express-bootstrap-boilerplate",
   "author": "Mustansir Zia",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "scripts": {
     "build": "cd app && next build",
     "start": "npm run build && env NODE_ENV=production node app.js",
