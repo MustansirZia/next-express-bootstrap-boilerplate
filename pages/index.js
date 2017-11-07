@@ -1,7 +1,10 @@
-const Index = () => (
+import React from 'react';
+
+import stylesheet from 'styles/index.scss';
+
+export default () => (
     <div>
-        <p>Hello Next.js</p>
+        <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
+        <p>ciao</p>
     </div>
 );
-
-export default Index;
