@@ -191,6 +191,8 @@ Hot loading for any server side code is handled by `nodemon` which restarts the 
 
 </p>
 
+### Linting.  <br />
+
 <p>
 
 Eslint is also added which uses the [airbnb](https://github.com/airbnb/javascript) style guide. Custom rules are defined to suit this very boilerplate inside `package.json` via a key called `eslintConfig`.
