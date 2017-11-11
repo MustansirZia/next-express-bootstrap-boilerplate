@@ -1,6 +1,6 @@
 {
   "name": "next-express-bootstrap-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JavaScript boilerplate for a full stack app built using React.js, Next.js, Express.js, react-bootstrap, SCSS and full SSR with eslint.",
   "main": "app.js",
   "repository": "https://github.com/MustansirZia/next-express-bootstrap-boilerplate",
