@@ -10,26 +10,27 @@ Boilerplate code to get you up and running quickly with a full stack JavaScript 
 <br />
 
 ## Installation.
-• `$ npm i -g next-express-bootstrap-boilerplate`. <br />
+• `npm i -g next-express-bootstrap-boilerplate`. <br />
 
-• `$ next-boilerplate` to initialize a project in the current directory or `next-boilerplate $FOLDER_NAME`. <br />
+• `next-boilerplate` to initialize a project in the current directory or
+`next-boilerplate $FOLDER_NAME`. <br />
 
 • If `$FOLDER_NAME` given, cd into that folder. <br />
 
-• `$ npm run dev` or `$ yarn dev`. (For development) <br />
+• `npm run dev` or `$ yarn dev`. (For development) <br />
 
-• `$ npm start` or `$ yarn start`. (For production) | `start` script will first build the app and then serve the production version at `:9001`.
+• `npm start` or `yarn start`. (For production) | `start` script will first build the app and then serve the production version at `:9001`.
 
 • Go to `localhost:9001` to verify. <br />
 
 • Start coding! :)
 
 #### • Alternate installation.
-• First clone the repo. `$ git clone https://github.com/MustansirZia/next-express-bootstrap-boilerplate`.
+• First clone the repo. `git clone https://github.com/MustansirZia/next-express-bootstrap-boilerplate`.
 
-• `$ cd next-express-bootstrap-boilerplate`.
+• `cd next-express-bootstrap-boilerplate`.
 
-• `$ npm i` or `$ yarn`.
+• `npm i` or `yarn`.
 
 <br />
 <br />
