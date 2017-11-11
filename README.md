@@ -11,6 +11,7 @@ Boilerplate code to get you up and running quickly with a full stack JavaScript 
 ## Installation.
 • `npm i -g next-express-bootstrap-boilerplate`. <br />
 • `next-boilerplate` to initialize a project in the current directory or `next-boilerplate $FOLDER_NAME`. <br />
+• If `$FOLDER_NAME` given, cd into that folder. <br />
 • `npm run dev` or `yarn dev`. (For development) <br />
 • `npm start` or `yarn start`. (For production) | `start` script will first build the app and then serve the production version at `:9001`.
 
