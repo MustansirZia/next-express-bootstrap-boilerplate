@@ -59,12 +59,12 @@ Boilerplate code to get you up and running quickly with a full stack JavaScript 
 |  |
 |  `-- .babelrc					
 |  |
-|  `-- next.config.js 	       // App config lives here.
+|  `-- next.config.js 	      // App config lives here.
 |  |
 |  `-- postcss.config.js   
 |
 |
-`-- public                       // Static assets can live here.
+`-- public                    // Static assets can live here.
 |  |
 |  `-- icons
 |     |
