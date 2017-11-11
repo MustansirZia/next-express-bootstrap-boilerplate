@@ -53,7 +53,7 @@ Boilerplate code to get you up and running quickly with a full stack JavaScript 
 |  `-- postcss.config.js   
 |
 |
-`-- public                  // Static assets can live here. 
+`-- public                  // Static assets can live here.
 |  |
 |  `-- icons
 |     |
@@ -148,16 +148,19 @@ It should look quite familiar to the `app.js` of a normal express app with the e
 The first middleware adds `req.app` and `req.handle` properties to our `req` object. We can use these to render pages from Next.js inside our express routes. <br />
 The second middleware simply makes sure to divert any request comes to a route that is not defined within our express routes to the Next.js' handler which takes care of it automatically by looking up inside `app/pages` for a corresponding component. (This is why a request to `/` and `/profile` is catered to even though it is not defined in the express router; Only `/main` is defined there). <br />
 Thus, as you can see requests to `/main` and `/` mean the same thing. Each component is rendered on the server and then sent to the client. <br />
+Static files like icons or fonts are served from `public/` and an asset such as those can be reached on the url `/` such as `/icons/github.png`. <br />
 Look inside `app.js` and `next.js` to know more.
 
 #### `app.js`.
 ```js
-const app = require('express')();
+const express = require('express');
 // const logger = require('morgan');
+const path = require('path');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const next = require('./next');
 
+const app = express();
 // Put in place textbook middlewares for express.
 if (process.env.NODE_ENV !== 'production') {
     // app.use(logger('dev'));
@@ -165,6 +168,7 @@ if (process.env.NODE_ENV !== 'production') {
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+app.use('/', express.static(path.join(__dirname, 'public')));
 
 const start = async (port) => {
     // Couple Next.js with our express server.
