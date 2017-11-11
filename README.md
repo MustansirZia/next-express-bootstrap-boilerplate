@@ -10,12 +10,17 @@ Boilerplate code to get you up and running quickly with a full stack JavaScript 
 
 ## Installation.
 • `npm i -g next-express-bootstrap-boilerplate`. <br />
+
 • `next-boilerplate` to initialize a project in the current directory or `next-boilerplate $FOLDER_NAME`. <br />
+
 • If `$FOLDER_NAME` given, cd into that folder. <br />
+
 • `npm run dev` or `yarn dev`. (For development) <br />
+
 • `npm start` or `yarn start`. (For production) | `start` script will first build the app and then serve the production version at `:9001`.
 
 • Go to `localhost:9001` to verify. <br />
+
 • Start coding! :)
 
 #### • Alternate installation.
@@ -30,19 +35,19 @@ Boilerplate code to get you up and running quickly with a full stack JavaScript 
 
 ## App structure.
 ```
-|-- app                     // Next.js app lives here.
+|-- app 						// Next.js app lives here.
 |  |
-|  `-- components           // Common components live here.
+|  `-- components 		      // Common components live here.
 |  |  |
 |  |  `-- Theme.js
 |  |
-|  `-- pages                // App routes live here.
+|  `-- pages 				  // App routes live here.
 |  |  |
 |  |  `-- index.js
 |  |  |
 |  |  `-- profile.js
 |  |
-|  `-- styles               // CSS and SCSS files live here.
+|  `-- styles 			     // CSS and SCSS files live here.
 |  |  |
 |  |  `-- index.scss
 |  |  |
@@ -52,7 +57,7 @@ Boilerplate code to get you up and running quickly with a full stack JavaScript 
 |  |
 |  `-- .babelrc					
 |  |
-|  `-- next.config.js       // App config lives here.
+|  `-- next.config.js 	     // App config lives here.
 |  |
 |  `-- postcss.config.js   
 |
