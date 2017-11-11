@@ -15,3 +15,14 @@ $primary-color: black;
   justify-content: center;
   margin-top: 2em;
 }
+
+.img-container {
+  justify-content: center;
+  display: flex;
+  margin-top: 2em;
+  img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+  }
+}

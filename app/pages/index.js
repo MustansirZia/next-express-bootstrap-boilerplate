@@ -19,6 +19,12 @@ const Index = () => (
 
         <span className="heading">React.js | Next.js | Express.js | Bootstrap - SCSS</span>
         <span className="text">with SSR.</span>
+
+        {/* Acquire static assets from express static directly. */}
+        <div className="img-container">
+            <img alt="" src="/icons/github.png" />
+        </div>
+
         <span className="text">
             <a href="https://github.com/MustansirZia/next-express-bootstrap-boilerplate">
               Github

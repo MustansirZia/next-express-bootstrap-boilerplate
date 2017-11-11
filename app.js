@@ -1,9 +1,11 @@
-const app = require('express')();
+const express = require('express');
 // const logger = require('morgan');
+const path = require('path');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const next = require('./next');
 
+const app = express();
 // Put in place textbook middlewares for express.
 if (process.env.NODE_ENV !== 'production') {
     // app.use(logger('dev'));
@@ -11,6 +13,7 @@ if (process.env.NODE_ENV !== 'production') {
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+app.use('/', express.static(path.join(__dirname, 'public')));
 
 const start = async (port) => {
     // Couple Next.js with our express server.
