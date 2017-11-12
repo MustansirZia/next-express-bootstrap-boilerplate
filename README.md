@@ -2,6 +2,14 @@
 [![npm version](https://badge.fury.io/js/next-express-bootstrap-boilerplate.svg)](https://badge.fury.io/js/next-express-bootstrap-boilerplate)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
+## Contents
+
+- [TL;DR](#TL;DR)
+- [Installation](#installation)
+- [App structure](#app-structure)
+- [Express integration](#express-integration)
+- [Goodies](#goodies)
+- [Compatibility,Further reading, Contributions,LICENSE](#compatibility)
 
 
 ## TL;DR.
@@ -229,7 +237,7 @@ Eslint is also added which uses the [airbnb](https://github.com/airbnb/javascrip
 
 <br />
 
-## Compatibity.
+## Compatibility.
 Should be okay with node version >= `7.6`. This is because I've used `async/await`. For older versions I would recommend buidling with babel with the help of a plugin called `transform-runtime`.
 
 
