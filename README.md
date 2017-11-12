@@ -46,6 +46,8 @@ Boilerplate code to get you up and running quickly with a full stack JavaScript 
 
 • `cd next-express-bootstrap-boilerplate`.
 
+• `rm -rf .git`.
+
 • `npm i` or `yarn`.
 
 <br />
