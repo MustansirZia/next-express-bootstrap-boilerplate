@@ -1,20 +1,21 @@
 <p align="center">
-<h1> next-express-bootstrap-boilerplate </h1>
+<h1 align="center"> next-express-bootstrap-boilerplate </h1>
 </p>
-</p align="center">
+<p align="center">
+
 [![npm version](https://badge.fury.io/js/next-express-bootstrap-boilerplate.svg)](https://badge.fury.io/js/next-express-bootstrap-boilerplate)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+
 </p>
 
 ## Contents
 
-- [TL;DR](#TL;DR)
-- [Installation](#installation)
-- [App structure](#app-structure)
-- [Express integration](#express-integration)
-- [Goodies](#goodies)
-- [Compatibility, Further reading, Contributions, LICENSE](#compatibility)
-<br />
+- [TL;DR.](#TL;DR)
+- [Installation.](#installation)
+- [App structure.](#app-structure)
+- [Express integration.](#express-integration)
+- [Goodies.](#goodies)
+- [Compatibility, Further reading, Contributions, LICENSE.](#compatibility)
 <br />
 
 ## TL;DR.
