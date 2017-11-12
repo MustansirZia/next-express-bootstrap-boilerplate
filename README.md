@@ -1,6 +1,10 @@
-# next-express-bootstrap-boilerplate
+<p align="center">
+<h1> next-express-bootstrap-boilerplate </h1>
+</p>
+</p align="center">
 [![npm version](https://badge.fury.io/js/next-express-bootstrap-boilerplate.svg)](https://badge.fury.io/js/next-express-bootstrap-boilerplate)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+</p>
 
 ## Contents
 
@@ -9,8 +13,9 @@
 - [App structure](#app-structure)
 - [Express integration](#express-integration)
 - [Goodies](#goodies)
-- [Compatibility,Further reading, Contributions,LICENSE](#compatibility)
-
+- [Compatibility, Further reading, Contributions, LICENSE](#compatibility)
+<br />
+<br />
 
 ## TL;DR.
 Boilerplate code to get you up and running quickly with a full stack JavaScript web application whose frontend is built with <b>[React.js](https://reactjs.org/)</b>, <b>[Next.js](https://github.com/zeit/next.js)</b>, <b>[Bootstrap](https://react-bootstrap.github.io/)</b> and <b>[SCSS](http://sass-lang.com/)</b> and backend is built using <b>[Express.js](https://expressjs.com/)</b>. React code is isomorphic and the components are rendered both on the server with <b>Server Side Rendering</b> (SSR) as well as on the browser.
