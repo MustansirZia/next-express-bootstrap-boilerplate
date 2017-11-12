@@ -2,9 +2,9 @@
 <h1 align="center"> next-express-bootstrap-boilerplate </h1>
 </p>
 <p align="center">
-
-[![npm version](https://badge.fury.io/js/next-express-bootstrap-boilerplate.svg)](https://badge.fury.io/js/next-express-bootstrap-boilerplate)
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+<a href="https://badge.fury.io/js/next-express-bootstrap-boilerplate"><img src="https://badge.fury.io/js/next-express-bootstrap-boilerplate.svg"/></a>
+<a href="https://opensource.org/licenses/mit-license.php"><img src="https://badges.frapsoft.com/os/mit/mit.svg?v=103"/>
+</a>
 
 </p>
 
