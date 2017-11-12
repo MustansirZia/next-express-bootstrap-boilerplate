@@ -3,6 +3,7 @@
 </p>
 <p align="center">
 <a href="https://badge.fury.io/js/next-express-bootstrap-boilerplate"><img src="https://badge.fury.io/js/next-express-bootstrap-boilerplate.svg"/></a>
+<a href="https://www.npmjs.com/package/next-express-bootstrap-boilerplate"><img src="https://img.shields.io/npm/dt/next-express-bootstrap-boilerplate.svg" /></a>
 <a href="https://opensource.org/licenses/mit-license.php"><img src="https://badges.frapsoft.com/os/mit/mit.svg?v=103"/>
 </a>
 
