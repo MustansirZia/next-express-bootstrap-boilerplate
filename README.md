@@ -245,7 +245,9 @@ Eslint is also added which uses the [airbnb](https://github.com/airbnb/javascrip
 <br />
 
 ## Compatibility.
-Should be okay with node version >= `7.6`. This is because I've used `async/await`. For older versions I would recommend buidling with babel with the help of a plugin called `transform-runtime`.
+This boilerplate uses `react ^16.0.0` and `react-dom ^16.0.0`.
+
+Also, it should be okay with node version >= `7.6`. This is because I've used `async/await`. For older versions I would recommend buidling with babel with the help of a plugin called `transform-runtime`.
 
 
 ## Further reading.
