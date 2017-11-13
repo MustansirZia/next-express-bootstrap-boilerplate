@@ -26,7 +26,7 @@ Boilerplate code to get you up and running quickly with a full stack JavaScript 
 <br />
 
 ## Installation.
-• `npm i -g next-express-bootstrap-boilerplate`. <br />
+• `npm i -g next-express-bootstrap-boilerplate`. (`sudo` if you need to for steps I & II)<br />
 
 • `next-boilerplate` to initialize a project in the current directory or
 `next-boilerplate $FOLDER_NAME`. <br />
