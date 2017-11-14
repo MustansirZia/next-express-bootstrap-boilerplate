@@ -61,7 +61,7 @@ Boilerplate code to get you up and running quickly with a full stack JavaScript 
 |  |  |
 |  |  `-- Theme.js
 |  |
-  |  `-- pages  // App routes live here.
+|  `-- pages  // App routes live here.
 |  |  |
 |  |  `-- index.js
 |  |  |
