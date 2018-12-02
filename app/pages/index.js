@@ -38,12 +38,13 @@ const Index = () => (
         </div>
 
         {/* Styling using styled-jsx. */}
-        <style jsx>{`
+        <style jsx>
+            {`
               .btn {
                 display: flex;
                 justify-content: center;
               }`
-        }
+            }
         </style>
     </Theme>
 );
