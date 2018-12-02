@@ -1,6 +1,6 @@
 {
   "name": "next-express-bootstrap-boilerplate",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "JavaScript boilerplate for a full stack app built using React.js, Next.js, Express.js, react-bootstrap, SCSS and full SSR with eslint.",
   "main": "app.js",
   "repository": "https://github.com/MustansirZia/next-express-bootstrap-boilerplate",
@@ -27,7 +27,7 @@
     "start": "npm run build && env NODE_ENV=production node app.js",
     "dev": "nodemon --ignore app/ app.js"
   },
-  "eslintConfig" : {
+  "eslintConfig": {
     "extends": "airbnb",
     "settings": {
       "import/core-modules": [
@@ -68,29 +68,30 @@
     }
   },
   "dependencies": {
-    "autoprefixer": "7.1.5",
-    "babel-plugin-module-resolver": "^2.7.1",
+    "@octokit/rest": "^16.0.5",
+    "autoprefixer": "^9.3.1",
+    "babel-plugin-module-resolver": "^3.1.1",
     "babel-plugin-wrap-in-js": "^1.1.0",
     "body-parser": "^1.18.2",
     "cookie-parser": "^1.4.3",
     "express": "^4.16.2",
     "glob": "^7.1.2",
     "morgan": "^1.9.0",
-    "next": "^4.1.4",
+    "next": "^7.0.2",
     "node-sass": "^4.4.0",
-    "normalize.css": "^7.0.0",
+    "normalize.css": "^8.0.1",
     "postcss-easy-import": "^3.0.0",
-    "postcss-loader": "^2.0.7",
+    "postcss-loader": "^3.0.0",
     "prop-types": "^15.6.0",
     "raw-loader": "^0.5.1",
-    "react": "^16.0.0",
-    "react-bootstrap": "^0.31.5",
-    "react-dom": "^16.0.0",
-    "sass-loader": "^6.0.6"
+    "react": "^16.6.3",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.6.3",
+    "sass-loader": "^7.1.0"
   },
   "devDependencies": {
-    "eslint": "^4.10.0",
-    "eslint-config-airbnb": "^16.1.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.4.0",
